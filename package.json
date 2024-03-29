@@ -1,0 +1,8 @@
+{
+  "name": "ai-code-review-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jayanti-prajapati/ai-code-review-sample.git",
+  "author": "Jayantilal Prajapat <jayanti.prajapat@gmail.com>",
+  "license": "MIT"
+}
