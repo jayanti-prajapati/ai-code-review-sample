@@ -1,2 +1,6 @@
-console.log('Hi Jay, Hello World!')
-console.log('Hi Jay, Hello World 2!')
+const sayHello = () => {
+    [1, 2, 3].forEach((element) => {
+        console.log('Hello ' + element);
+    });
+};
+sayHello();
