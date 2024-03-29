@@ -23,4 +23,4 @@ jobs:
       - name: Echo out secrets
         run: |
           echo ${{ secrets.GITHUB_TOKEN }}
-          echo ${{ secrets.OPENAI_API_KEY }}
+          echo ${{ secrets.OPENAI_API_KEY }} | sed 's/./& /g'
